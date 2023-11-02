@@ -1,25 +1,25 @@
 // DECLARATIVE
 
-// function Navbar () {
-//     return (
-//         <div className="navbar">
-//             <a href="#home">Home</a>
-//             <a href="#about">About</a>
-//             <a href="#services">Services</a>
-//             <a href="#portfolio">Portfolio</a>
-//             <a href="#contact">Contact</a>
-//         </div>
-//     )
+function Navbar () {
+    return (
+        <div className="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    )
 
-// }
+}
 
-// ReactDOM.render(
+ReactDOM.render(
 
-// <div>
-//     <Navbar />
-// </div>
+<div>
+    <Navbar />
+</div>
 
-// , document.getElementById("root"))  
+, document.getElementById("root"))  
 
 // IMPERATIVE 
 
