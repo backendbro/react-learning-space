@@ -35,13 +35,20 @@ body {
 
 .nav-items > li:hover {
     border-bottom: 5px solid #051036;
+    transition: .6s ease-in-out;
     cursor: pointer;
 }
 
 
 .footer {
     position: absolute;
-    top: 95vh;
-    left: 40vw;
+    top: 92vh;
+    left: 35vw;
+    background-color: #46474d;
+    padding: 12px;
+    opacity: 0 .8;
 }
     
+.footer-item {
+    color: white;
+}

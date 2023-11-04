@@ -31,7 +31,7 @@ function MainContent () {
 function Footer () {
     return (
         <footer className="footer">
-        <small>&#169; 2023 backendbro development. All rights reserved</small>
+        <small className>&#169; 2023 backendbro development. All rights reserved</small>
         </footer>
     )
 }
