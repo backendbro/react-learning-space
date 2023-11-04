@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+html {
+    font-family: "Jost", "Roboto";
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.image {
+    width: 50px;
+}
+
+.nav-items {
+    list-style: none;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items > li {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.nav-items > li:hover {
+    border-bottom: 5px solid #051036;
+    cursor: pointer;
+}
+
+
+.footer {
+    position: absolute;
+    top: 95vh;
+    left: 40vw;
+}
+    
