@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+html {
+    font-family: "Jost", "Roboto";
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-image: url(
+    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdavidcastrocastaneda.netlify.app%2Fimg%2Fabout-logos%2Fgrey-react-logo.png&f=1&nofb=1&ipt=a92e2bc8402cbb3cd0c9222004ff1c93f17c039ad62f70f4bd137b987e4442db&ipo=images");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size:350px;
+ */
+
+}
+
+nav {
+  background-color: #12222A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: 90px;
+}
+
+nav .left-section {
+  display: flex;
+  align-items: center;
+}
+
+
+nav .left-section > h3 {
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav .right-section > h4 {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+
+
+img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.main-section {
+  background-color: #282D35;
+  height: 84vh;
+  padding: 57px 27px;
+  color: white;
+}
+
+.main-section h1 {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -.05em;
+}
+
+.main-section ul {
+  margin-top: 46px;
+}
+
+.main-section ul > li {
+  line-height: 19px;
+  padding-block: 10px;  
+}
+
+.main-section ul > li::marker {
+  background-color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+
