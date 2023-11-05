@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Jost", "Roboto";
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 13px;
+  width: 250px;
+  max-height: 100vh;
+  background-color: #12222A;
+  margin-top: 30px;
+}
+  
+  /* /////////// Header Section ///////////////////////////////// */
+
+  .header .top-section img {
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .header .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header .bottom-section h2 {
+    margin-top: 10px;
+    word-spacing: 5px;
+    color: white;
+  }
+  
+  .header .bottom-section .name p {
+    margin-top: -20px;
+    color: white;
+  }
+  
+  .header .bottom-section .place-of-work {
+    margin-top: -4px;
+    color: white;
+  }
+  
+  .header .bottom-section .btn {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .bottom-section .btn button i {
+    margin-right: 4px;
+  }
+  
+  .header .bottom-section .btn .linkedin-btn,   .header .bottom-section .btn .email-btn {
+    border-radius: 3px;
+    padding: 5px 12px;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+
+
+  .header .bottom-section .btn .linkedin-btn {
+    background-color: #61DAFB;
+    color: white;
+  }
+  
+  .header .bottom-section .btn .email-btn {
+    background-color: white;
+    color: black;
+  }
+  
+
+  .header .bottom-section .btn .linkedin-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .header .bottom-section .btn .email-btn:hover {
+    background-color: #538694;
+    color: black;
+  }
+  
+
+  /* /////////// Main Section ///////////////////////////////// */
+
+  .main {
+    color: white;
+    margin-top: 25px;
+    padding: 0 29px;
+  }
+
+  .main h3 {
+    margin: 0;
+  }
+
+  .main p {
+    margin-top: -1px;
+    font-size: 14px;
+  }
+
+    /* /////////// Footer Section ///////////////////////////////// */
+
+  .footer {
+    margin-top: 10px;
+    background-color: #080e11;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  } 
+
+
+  .footer i:nth-child(1) {
+    margin-left: 10px;
+  }
+
+  .footer i:nth-child(4) {
+    margin-right: 10px;
+  }
+
+
+  .footer i {
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .footer .fa-twitter {
+    color: #1DA1F2;
+  }
+
+  .footer .fa-github {
+    color: #6cc644;
+  }
+
+  .footer .fa-facebook {
+    color: #4267B2;
+  }
+
+  .footer .fa-linkedin {
+    color: #DD5143;
+  }
