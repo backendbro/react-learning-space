@@ -1,15 +1,14 @@
-import Swimmer from "../images/Swimmer.png"
-import WeddingPhoto from "../images/wedding-photography.png"
-import MountainBike from "../images/mountain-bike.png"
 
 function Card (props) {
+    
     const content = (
 
         <section className="card-container">
+
                     <div className="card"> 
             <div className="top-section">
                 <span>SOLD OUT</span>
-                <img src={props.img} alt="A swimmer" />
+                <img src={props.img[0]} alt="A swimmer" />
             </div>
 
             <div className="bottom-section">
@@ -17,7 +16,7 @@ function Card (props) {
                     <span className="icon"> 
                     <i className="fa fa-star"></i>
                     <small> 
-                        50
+                        {props.rating[0]}
                         </small> 
                     </span>
 
@@ -38,7 +37,7 @@ function Card (props) {
         <div className="card"> 
             <div className="top-section">
                 <span>SOLD OUT</span>
-                <img src={WeddingPhoto} alt="A swimmer" />
+                <img src={props.img[1]} alt="A swimmer" />
             </div>
 
             <div className="bottom-section">
@@ -46,7 +45,7 @@ function Card (props) {
                     <span className="icon"> 
                     <i className="fa fa-star"></i>
                     <small> 
-                        50
+                    {props.rating[1]}
                         </small> 
                     </span>
 
@@ -68,7 +67,7 @@ function Card (props) {
         <div className="card"> 
             <div className="top-section">
                 <span>SOLD OUT</span>
-                <img src={MountainBike} alt="A swimmer" />
+                <img src={props.img[2]} alt="A swimmer" />
             </div>
 
             <div className="bottom-section">
@@ -76,7 +75,7 @@ function Card (props) {
                     <span className="icon"> 
                     <i className="fa fa-star"></i>
                     <small> 
-                        50
+                    {props.rating[2 ]}
                         </small> 
                     </span>
 
