@@ -52,7 +52,7 @@ nav img {
 
 .card-container {
   display: flex;
-  
+  flex: 0 0 auto;  
 }
 
 .card {
