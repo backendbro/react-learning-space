@@ -7,9 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: "Jost", "Roboto";
-}
 
 nav {
   height: 70px;
@@ -53,6 +50,7 @@ nav img {
 .card-container {
   display: flex;
   flex: 0 0 auto;  
+  justify-content: center;
 }
 
 .card {

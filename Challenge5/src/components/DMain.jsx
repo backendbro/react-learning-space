@@ -2,11 +2,9 @@ import Main from "./Main";
 import data from "../data/data";
 
 function DMain () {
-
-
-    const content = data.map((data) => {
+    const content = data.map((data, index) => {
         return (
-            <Main data = {data} key={data.key}/>
+            <Main data = {data} key={index}/>
         )
     })
 

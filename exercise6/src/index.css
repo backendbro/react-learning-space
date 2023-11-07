@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Jost", "Roboto";
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+
+/* /////////////////////// NAV ////////////////////////// */
+
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 25px;
+  height: 70px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+nav h2 {
+  font-size: 19px;
+}
+
+nav .left-section {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav .left-section img {
+  height: 100%;
+  margin-right: 13px;
+}
+
+/* /////////////////////// INPUT  ////////////////////////// */
+
+.display-container {
+  height: 500px;
+  padding: 20px 20px;
+}
+
+.input-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.input-tab .inputs {
+  margin-bottom: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-tab .inputs input {
+  height: 35px;
+  width: 47%;
+  border: .5px solid black;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+.input-tab .btn button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 5px;
+}
+
+.input-tab .btn button i {
+  margin-left: 15px;
+}
+
+/* /////////////////////// IMAGE DISPLAY  ////////////////////////// */
+.image-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+

@@ -1,6 +1,6 @@
 
 function Card (props) {
-    
+
     const content = (
 
         <section className="card-container">
